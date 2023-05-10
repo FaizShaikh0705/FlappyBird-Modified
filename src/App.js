@@ -4,7 +4,6 @@ import Bird from './components/Bird'
 import Piping from './components/Piping'
 import Menu from './components/Menu'
 // import Header from './components/Header'
-import './App.css'
 
 export default function App({ state, actions, record }) {
     let { bird, pipings, game, player } = state
